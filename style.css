@@ -1,0 +1,78 @@
+
+body {
+    margin: 0px 30px 0 30px;
+    /* width: 100vw; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.header__designer-name {
+    margin: 0;
+}
+
+.header {
+   font-size: 20px;
+   /* flex способность гибкого элемента растягиваться или сжиматься */
+   display:flex; 
+   flex-direction: row;
+   /* column-gap: 29px; */
+   /* row-gap: 30px; */
+   /* background-color: blue; */
+   /* border: 1px solid red; */
+   /* border-radius: 10px 40px; */
+   justify-content: space-between;
+   margin: 27px 0 33px 0;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    column-gap: 30px;
+    
+}
+
+ul.menu > li > a {
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+    color: black;
+}
+
+img.one {
+width: 466px;
+height: 466px;
+
+}
+
+div.section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.section-one__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: calc(126px - 30px);
+    max-width: 462px;
+    
+}
+
+div.section-one__description > h2.one{
+    font-size: 60px;
+    margin: 25px 0 35px 0; 
+    font-weight: 400;
+}
+div.section-one__description > div.additional-span-one{
+    display: flex;
+    column-gap: 30px;
+    margin-left: 24px;
+}
+
+div.section-one__description > span.one{
+    margin-left: 48px;
+}
