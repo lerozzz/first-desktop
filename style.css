@@ -71,8 +71,151 @@ div.section-one__description > div.additional-span-one{
     display: flex;
     column-gap: 30px;
     margin-left: 24px;
+
 }
 
 div.section-one__description > span.one{
     margin-left: 48px;
+}
+img.two {
+    width: 466px;
+    height: 466px;
+}
+
+div.section-two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+div.section-two__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: calc(202px - 30px);
+    max-width: 383px;
+}
+
+div.section-two__description > h2.two{
+    font-size: 60px; 
+    font-weight: 400;
+    margin: 25px 0 35px 0;
+}
+
+div.section-two__description > span.two-two {
+    margin-left: 48px;
+}
+
+div.section-three {
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px;
+    margin-left: calc(126px - 30px);
+    max-width: 448px;
+}
+
+div.section-three > h2.three {
+    font-size: 60px;
+    margin-top: 25px;
+    font-weight: 400;
+}
+div.section-three > div.additional-span-three{
+    display: flex;
+    column-gap: 30px;
+}
+
+img.four {
+    width: 945px;
+    height: 591px;
+    margin: 275px  97px 39px 98px;
+}
+
+div.section-five {
+    display: flex;
+    flex-direction: column; 
+    max-width: 389px;
+    margin: 0 0 270px 98px;
+}
+
+div.section-five > h2.five {
+    font-size: 60px; 
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+div.section-five > div.additional-span-five{
+    display: flex;
+    column-gap: 30px;
+    margin-left: 24px;
+}
+
+div.section-six {
+    display: flex;
+    flex-direction: row-reverse; 
+    
+    
+}
+div.section-six__description{
+    display: flex;
+    flex-direction: column;
+    margin: 0 90px 1049px 615px;
+    max-width: 495px; 
+}
+
+ div.section-six__description > h2.six {
+    font-size: 60px; 
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+div.section-six__description > div.additional-span-six{
+    /* display: flex; */
+}
+
+div.additional-span-six > span.six {
+    margin-left: 30px;
+}
+
+div.section-seven {
+    display: flex;
+    flex-direction: column; 
+    max-width: 389px;
+    margin: 0 0 125px 99px;
+}
+
+div.section-seven > h2.seven {
+    font-size: 60px; 
+    font-weight: 400;
+    margin-top: 25px
+}
+
+div.section-eight {
+    display: flex;
+    flex-direction: column; 
+    margin: 0 390px 120px 390px;
+}
+
+div.section-eight > form {
+    display: flex;
+    flex-direction: column; 
+    row-gap: 10px;
+    margin-top: 40px;
+}
+
+form input.text-form {
+border-radius: 0;
+border: solid 1px;
+width: 360px;
+height: 82px;
+padding: 0;
+}
+
+form button.button-form{
+    border-radius: 0;
+    border: solid 1px;
+    background-color: white;
+    width: 360px;
+    height: 102px;
+    padding: 0;
 }
