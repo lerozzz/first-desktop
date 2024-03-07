@@ -169,9 +169,7 @@ div.section-six__description{
     margin-top: 26px;
 }
 
-div.section-six__description > div.additional-span-six{
-    /* display: flex; */
-}
+
 
 div.additional-span-six > span.six {
     margin-left: 30px;
@@ -206,12 +204,13 @@ div.section-eight > form {
 form input.text-form {
 border-radius: 0;
 border: solid 1px;
-width: 360px;
+max-width: 360px;
 height: 82px;
 padding: 0;
+padding-left: 20px;
 }
 
-form button.button-form{
+form button.button-form {
     border-radius: 0;
     border: solid 1px;
     background-color: white;
@@ -219,3 +218,52 @@ form button.button-form{
     height: 102px;
     padding: 0;
 }
+hr {
+    width: 1080px;
+    height: 1px;
+}
+
+
+
+div.section-nine > div.additional-span-nine {
+    display: flex;
+    column-gap: 30px;
+    margin: 30px 90px 30px 90px;
+}
+
+div.section-ten {
+    display: flex;
+    flex-direction: row; 
+    margin: 30px 75px 0 84px;
+}
+
+div.section-ten > div.additional-h2-ten {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    margin-top: 1px;
+}
+
+div.additional-h2-ten > h2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0; 
+}
+
+div.section-ten > div.additional-span-ten {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+div.section-ten > h2{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 9px 86px 22px 224px; 
+}
+ p{
+    display: flex;
+    justify-content: center;
+ }
